@@ -4,11 +4,14 @@ Merge two files using a path selector. Useful for npm-package and similar. Secon
 
 ## Installation
 
-```npm i && npm link```
-
+```
+npm i && npm link
+```
 
 ## Example useage
 
-```mergejson ../alpha/package.json package.json scripts```
+```
+mergejson ../alpha/package.json package.json scripts
+```
 
 Merges any scripts the second given file doesn't have.
