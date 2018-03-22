@@ -5,7 +5,7 @@ Merge two files using a path selector. Useful for npm-package and similar. Secon
 ## Installation
 
 ```
-npm i && npm link
+npm i -g mergejson
 ```
 
 <h2>Example useage</h2>
