@@ -10,6 +10,6 @@ program
 		let ds = _.get(JSON.parse(fs.readFileSync(downstream).toString()), selector)
 		let target = JSON.parse(fs.readFileSync(upstream).toString())
 		let us = _.get(target, selector)
-		console.log(_.set(target, selector, _.defaults(us, ds)))
+		process.stdout.write(JSON.stringify(_.set(target, selector, _.defaults(us, ds)), null, '\t'))
 	})
 	.parse(process.argv)
