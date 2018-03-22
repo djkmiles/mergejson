@@ -1,6 +1,6 @@
 {
   "name": "@djk/mergejson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Merge file 1 as defaults to file 2 with path",
   "main": "index.js",
   "scripts": {
