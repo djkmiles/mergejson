@@ -6,6 +6,7 @@ Merge two files using a path selector. Useful for npm-package and similar. Secon
 
 ```npm i && npm link```
 
+
 ## Example useage
 
 ```mergejson ../alpha/package.json package.json scripts```
