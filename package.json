@@ -1,5 +1,5 @@
 {
-  "name": "mergejson",
+  "name": "@djk/mergejson",
   "version": "1.0.0",
   "description": "Merge file 1 as defaults to file 2 with path",
   "main": "index.js",
@@ -14,5 +14,14 @@
   "dependencies": {
     "commander": "^2.15.1",
     "lodash": "^4.17.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djkmiles/mergejson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/djkmiles/mergejson/issues"
+  },
+  "homepage": "https://github.com/djkmiles/mergejson#readme"
 }
