@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/djkmiles/mergejson/issues"
   },
-  "homepage": "https://github.com/djkmiles/mergejson#readme"
+  "homepage": "https://github.com/djkmiles/mergejson#readme",
+  "bin": {
+    "mergejson": "./index.js"
+  }
 }
